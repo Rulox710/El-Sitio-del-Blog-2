@@ -1,0 +1,68 @@
+:root{
+  --primary:  #843B62; /* color principal de marca */
+  --secondary:#74546A; /* apoyo/neutro */
+  --contrast: #0B032D; /* máximo accente */
+  --accent:   #FFB997; /* tono positivo y amigable */
+  --warning:  #F67E7D; /* llamada de atención */
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+/* Fondos */
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+
+.bg-accent {
+  background-color: var(--accent) !important;
+}
+
+.bg-contrast {
+  background-color: var(--contrast) !important;
+}
+
+.bg-warning {
+  background-color: var(--warning) !important;
+}
+
+/* Textos */
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.text-secondary {
+  color: var(--secondary) !important;
+}
+
+.text-default {
+  color: var(--contrast) !important;
+}
+
+.text-warning {
+  color: var(--warning) !important;
+}
+
+/* Bordes */
+.border-primary {
+  border-color: var(--primary) !important;
+}
+
+.border-secondary {
+  border-color: var(--secondary) !important;
+}
+
+.border-default {
+  border-color: var(--contrast) !important;
+}
+
+.border-warning {
+  border-color: var(--warning) !important;
+}

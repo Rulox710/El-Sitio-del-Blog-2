@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Contacto | El Sitio del Blog</title>
+
+  <!-- Bootstrap css desde cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link href="./style.css" rel="stylesheet" type="text/css" />
+  <link href="./styles/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler ms-auto"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon color-accent"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav text-end align-items-end align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link text-warning" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./contact-us.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container-fluid d-flex flex-column flex-grow-1 p-0">
+    <div class="d-flex flex-grow-1">
+      <section class="col-2 p-2 m-0 bg-accent"> ADS </section>
+      <section class="col-8 p-2 m-0 bg-warning">
+        <div class="m-5">
+        <h1> ¡Contáctanos! </h1>
+        <p class="introduccion">Puedes contactar al equipo por correo electrónico utilizando los siguientes medios:</p>
+        </div>
+
+        <section class="squares m-5" id="reviews">
+          <article class="introduccion" id="correo">
+            <div class="contenido">
+              <h2> ✉️ Correo electrónico</h2>
+              <p>¡Ansiosos por leerte! Si tienes sugerencias o recomendaciones no dudes en buscarnos</p>
+              <a class="enlace" href="mailto:user_rulox@proton.mail">user_Rulox — user_rulox@proton.mail</a>
+            </div>
+          </article>
+
+          <article class="introduccion" id="telefono">
+            <div class="contenido">
+              <h2> ☎️ Teléfono</h2>
+              <p>¡Ansiosos por oírte! Un medio más cercano pero igual de efectivo</p>
+              <p>+52 3334421109</p>
+            </div>
+          </article>
+        </section>
+
+        <div class="m-5 p-5 bg-accent">
+          <form id="basicForm m-5">
+            <div class="mb-3">
+              <label for="exampleInputEmail" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="name@example.com">
+              <div id="emailHelp" class="form-text">Este correo no se compartirá con nadie. Nunca.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputTextarea" class="form-label">Área de texto</label>
+              <textarea class="form-control" id="exampleInputTextarea" rows="3"></textarea>
+              <div id="textAreaHelp" class="form-text">¿Quieres contarnos algo?</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Aceptar</button>
+          </form>
+          <div class="mt-3" id="liveAlertForm"></div>
+        </div>
+      </section>
+      </section>
+      <section class="col-2 p-2 m-0 bg-secondary"> Noticias </section>
+    </div>
+  </main>
+
+  <footer class="bg-primary border-top py-3">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+        <p class="mb-0 text-warning">
+          © 2026 Mi sitio web. Todos los derechos reservados.
+        </p>
+
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./about.html" class="nav-link px-2 text-body-secondary">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact-us.html" class="nav-link px-2 text-body-secondary">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap js desde cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+</html>
